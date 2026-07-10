@@ -1,0 +1,35 @@
+.table img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.badge {
+    font-size: 11px;
+}
+
+.btn-sm {
+    min-width: 80px;
+}
+
+.producto-filtro {
+    max-width: 350px;
+}
+
+@media (max-width:768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-bottom: 5px;
+    }
+}
+
+.producto-img-tabla {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+html,
+body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #121212;
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background: #1f1f1f;
+    border-radius: 18px;
+    padding: 35px;
+    color: #fff;
+}
+
+.login-card h2 {
+    text-align: center;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.text-muted {
+    text-align: center;
+    color: #bdbdbd !important;
+}
+
+.form-label {
+    color: #fff;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .25);
+}
+
+.btn-warning {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.btn-outline-light {
+    border-radius: 10px;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+/* ==============================
+   TABLET
+============================== */
+
+@media (max-width:768px) {
+    .login-card {
+        max-width: 420px;
+        padding: 30px;
+    }
+}
+
+/* ==============================
+   CELULAR
+============================== */
+
+@media (max-width:576px) {
+    .login-container {
+        padding: 15px;
+    }
+
+    .login-card {
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .login-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 14px;
+        font-size: 17px;
+    }
+
+}

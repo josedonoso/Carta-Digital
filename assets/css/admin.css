@@ -1,0 +1,35 @@
+/* ========================= */
+/* ESTILOS GENERALES PANEL */
+/* ========================= */
+
+body {
+    background: #f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.form-control,
+.form-select {
+    min-height: 44px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.alert {
+    border-radius: 10px;
+}
